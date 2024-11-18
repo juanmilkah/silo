@@ -8,13 +8,13 @@ struct Cli {
     #[structopt(parse(from_os_str))]
     filepath: PathBuf,
 
-    #[structopt(short, long)]
+    #[structopt(short, long, about = "Convert yaml to json")]
     json: bool,
 
-    #[structopt(short, long)]
+    #[structopt(short, long, about = "Convert json to yaml")]
     yaml: bool,
 
-    #[structopt(long, short)]
+    #[structopt(long, short, about = "Save output in provided file")]
     output: Option<PathBuf>,
 }
 

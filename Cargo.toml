@@ -1,6 +1,6 @@
 [package]
 name = "silo"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description="YAML/JSON conversion cli tool"
 authors=["juanmilkah <juanmilkah@gmail.com>"]

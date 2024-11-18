@@ -2,6 +2,13 @@
 name = "silo"
 version = "0.1.0"
 edition = "2021"
+description="YAML/JSON conversion cli tool"
+authors=["juanmilkah <juanmilkah@gmail.com>"]
+license="GNU General Public License"
+
+[[bin]]
+name ="silo"
+path ="src/main.rs"
 
 [dependencies]
 serde = { version = "1.0.215", features = ["derive"] }

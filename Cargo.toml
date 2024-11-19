@@ -4,7 +4,8 @@ version = "0.1.1"
 edition = "2021"
 description="YAML/JSON conversion cli tool"
 authors=["juanmilkah <juanmilkah@gmail.com>"]
-license="GNU General Public License"
+license="GPL-3.0"
+repository="https://github.com/juanmilkah/silo"
 
 [[bin]]
 name ="silo"

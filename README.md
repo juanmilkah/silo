@@ -1,8 +1,8 @@
-# Silo 🔄
+# Silos 🔄
 
 ## Overview
 
-Silo is a lightweight command-line utility for converting between YAML and JSON file formats with ease.
+Silos is a lightweight command-line utility for converting between YAML and JSON file formats with ease.
 
 ## Features
 
@@ -14,7 +14,7 @@ Silo is a lightweight command-line utility for converting between YAML and JSON 
 ## Installation
 
 ```bash
-cargo install silo
+cargo install silos
 ```
 
 ## Usage
@@ -22,13 +22,13 @@ cargo install silo
 ### Convert YAML to JSON
 
 ```bash
-silo path/to/file.yaml --json [-o output.json]
+silos path/to/file.yaml --json [-o output.json]
 ```
 
 ### Convert JSON to YAML
 
 ```bash
-silo path/to/file.json --yaml [-o output.yaml]
+silos path/to/file.json --yaml [-o output.yaml]
 ```
 
 ### Options

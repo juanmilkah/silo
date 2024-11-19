@@ -1,14 +1,14 @@
 [package]
-name = "silo"
+name = "silos"
 version = "0.1.1"
 edition = "2021"
 description="YAML/JSON conversion cli tool"
 authors=["juanmilkah <juanmilkah@gmail.com>"]
 license="GPL-3.0"
-repository="https://github.com/juanmilkah/silo"
+repository="https://github.com/juanmilkah/silos"
 
 [[bin]]
-name ="silo"
+name ="silos"
 path ="src/main.rs"
 
 [dependencies]
